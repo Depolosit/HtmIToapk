@@ -11641,6 +11641,7 @@ object StringsA {
             AppLanguage.RUSSIAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Включено · %s", url) else "Включено"
             AppLanguage.JAPANESE -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "有効 · %s", url) else "有効"
             AppLanguage.KOREAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "활성화됨 · %s", url) else "활성화됨"
+            else -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Enabled · %s", url) else "Enabled"
         }
     }
 
@@ -11682,6 +11683,7 @@ object StringsA {
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d всего", count)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "合計 %d 個", count)
             AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
+            else -> String.format(java.util.Locale.getDefault(), "%d total", count)
         }
     }
 

@@ -53,7 +53,7 @@ jobs:
 
       - name: Run checks
         run: |
-          bash bash bash ./gradlew --no-daemon --no-configuration-cache \
+          bash ./gradlew --no-daemon --no-configuration-cache \
             -Dkotlin.compiler.execution.strategy=in-process \
             -PskipShellTemplateSync=true \
             -PallowDebugSignedRelease=true \
@@ -98,7 +98,7 @@ jobs:
 
       - name: Build APKs
         run: |
-          bash bash bash ./gradlew --no-daemon --no-configuration-cache \
+          bash ./gradlew --no-daemon --no-configuration-cache \
             -Dkotlin.compiler.execution.strategy=in-process \
             -PallowDebugSignedRelease=true \
             :app:assembleStandardDebug \
@@ -112,7 +112,7 @@ jobs:
       # Robolectric build through ApkBuilder against the freshly built shell template.
       - name: Build generated demo APK
         run: |
-          bash bash bash ./gradlew --no-daemon --no-configuration-cache \
+          bash ./gradlew --no-daemon --no-configuration-cache \
             -Dkotlin.compiler.execution.strategy=in-process \
             :app:testStandardDebugUnitTest --tests "com.webtoapp.core.apkbuilder.DemoApkExportTest"
 

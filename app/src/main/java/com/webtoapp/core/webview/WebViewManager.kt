@@ -2128,6 +2128,7 @@ class WebViewManager(
                 com.webtoapp.core.i18n.AppLanguage.RUSSIAN -> "Уведомления плагинов"
                 com.webtoapp.core.i18n.AppLanguage.JAPANESE -> "プラグイン通知"
                 com.webtoapp.core.i18n.AppLanguage.KOREAN -> "플러그인 알림"
+                com.webtoapp.core.i18n.AppLanguage.TURKISH -> "Plugin notifications"
             },
             "Notifications posted by web plugins"
         )

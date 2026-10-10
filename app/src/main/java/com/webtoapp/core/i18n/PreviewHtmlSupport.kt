@@ -22,5 +22,6 @@ object PreviewHtmlSupport {
         AppLanguage.RUSSIAN -> "ru"
         AppLanguage.JAPANESE -> "ja"
         AppLanguage.KOREAN -> "ko"
+        AppLanguage.TURKISH -> "en"
     }
 }

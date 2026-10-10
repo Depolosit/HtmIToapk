@@ -1,3 +1,4 @@
+@file:Suppress("NO_ELSE_IN_WHEN")
 package com.webtoapp.core.i18n
 
 import android.content.Context
@@ -7,7 +8,7 @@ import androidx.compose.ui.platform.LocalContext
 object StringsA {
     val appTitle: String get() = "WebToApp"
 
-    val translationInProgressBadge: String get() = when (Strings.lang) {
+    val translationInProgressBadge: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "翻译进行中"
         AppLanguage.ENGLISH -> "Translation in progress"
         AppLanguage.ARABIC -> "الترجمة قيد التقدم"
@@ -23,7 +24,7 @@ object StringsA {
     }
 
     val typewriterText1: String get() = "WebToApp"
-    val typewriterText2: String get() = when (Strings.lang) {
+    val typewriterText2: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "探索网页与APK的边界"
         AppLanguage.ENGLISH -> "Explore the boundary of Web & APK"
         AppLanguage.ARABIC -> "استكشف حدود الويب و APK"
@@ -37,7 +38,7 @@ object StringsA {
 
         AppLanguage.TURKISH -> "Web ve APK dünyasının sınırlarını keşfet"
     }
-    val typewriterText3: String get() = when (Strings.lang) {
+    val typewriterText3: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "代码的无限可能"
         AppLanguage.ENGLISH -> "Infinite possibilities of code"
         AppLanguage.ARABIC -> "إمكانيات لا حدود لها للبرمجة"
@@ -52,7 +53,7 @@ object StringsA {
         AppLanguage.TURKISH -> "Kodun sınırsız olanakları"
     }
 
-    val myApps: String get() = when (Strings.lang) {
+    val myApps: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "我的应用"
         AppLanguage.ENGLISH -> "My Apps"
         AppLanguage.ARABIC -> "تطبيقاتي"
@@ -67,7 +68,7 @@ object StringsA {
         AppLanguage.TURKISH -> "Uygulamalarım"
     }
 
-    val createApp: String get() = when (Strings.lang) {
+    val createApp: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "创建应用"
         AppLanguage.ENGLISH -> "Create App"
         AppLanguage.ARABIC -> "إنشاء تطبيق"
@@ -82,7 +83,7 @@ object StringsA {
         AppLanguage.TURKISH -> "Uygulama oluştur"
     }
 
-    val search: String get() = when (Strings.lang) {
+    val search: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "搜索..."
         AppLanguage.ENGLISH -> "Search..."
         AppLanguage.ARABIC -> "بحث..."
@@ -97,7 +98,7 @@ object StringsA {
         AppLanguage.TURKISH -> "Ara..."
     }
 
-    val more: String get() = when (Strings.lang) {
+    val more: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "更多"
         AppLanguage.ENGLISH -> "More"
         AppLanguage.ARABIC -> "المزيد"
@@ -112,7 +113,7 @@ object StringsA {
         AppLanguage.TURKISH -> "Daha fazla"
     }
 
-    val back: String get() = when (Strings.lang) {
+    val back: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "返回"
         AppLanguage.ENGLISH -> "Back"
         AppLanguage.ARABIC -> "رجوع"
@@ -127,7 +128,7 @@ object StringsA {
         AppLanguage.TURKISH -> "Geri"
     }
 
-    val menuAgent: String get() = when (Strings.lang) {
+    val menuAgent: String get() = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "Agent"
         AppLanguage.ENGLISH -> "Agent"
         AppLanguage.ARABIC -> "Agent"

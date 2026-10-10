@@ -146,6 +146,7 @@ object RandomAppNameGenerator {
             AppLanguage.RUSSIAN -> generateEnglish()
             AppLanguage.JAPANESE -> generateEnglish()
             AppLanguage.KOREAN -> generateEnglish()
+            AppLanguage.TURKISH -> generateEnglish()
         }
     }
 
@@ -161,6 +162,7 @@ object RandomAppNameGenerator {
             AppLanguage.RUSSIAN -> generateEnglish()
             AppLanguage.JAPANESE -> generateEnglish()
             AppLanguage.KOREAN -> generateEnglish()
+            AppLanguage.TURKISH -> generateEnglish()
         }
     }
 

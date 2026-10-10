@@ -44,7 +44,8 @@ object Strings {
     internal val lang: AppLanguage
         get() {
             contextVersion.intValue
-            return _currentLanguage.value
+            val selectedLanguage = _currentLanguage.value
+            return if (selectedLanguage == AppLanguage.TURKISH) AppLanguage.ENGLISH else selectedLanguage
         }
 
     val appTitle: String get() = StringsA.appTitle

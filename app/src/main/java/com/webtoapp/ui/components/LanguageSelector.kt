@@ -287,6 +287,7 @@ fun FirstLaunchLanguageScreen(
                     AppLanguage.JAPANESE -> "ようこそ"
                     AppLanguage.KOREAN -> "환영합니다"
                     null -> "Welcome / 欢迎 / مرحبا"
+                    AppLanguage.TURKISH -> "Welcome"
                 },
                 style = welcomeHeadlineStyle,
                 textAlign = TextAlign.Center,
@@ -308,6 +309,7 @@ fun FirstLaunchLanguageScreen(
                     AppLanguage.JAPANESE -> "言語を選択"
                     AppLanguage.KOREAN -> "언어 선택"
                     null -> "Select Language / 选择语言 / اختر اللغة"
+                    AppLanguage.TURKISH -> "Select Language"
                 },
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -362,6 +364,7 @@ fun FirstLaunchLanguageScreen(
                         AppLanguage.JAPANESE -> "確認"
                         AppLanguage.KOREAN -> "확인"
                         null -> "Confirm / 确认 / تأكيد"
+                        AppLanguage.TURKISH -> "Confirm"
                     },
                     style = MaterialTheme.typography.titleMedium
                 )

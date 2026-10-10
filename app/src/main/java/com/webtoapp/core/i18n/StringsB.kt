@@ -1,3 +1,4 @@
+@file:Suppress("NO_ELSE_IN_WHEN")
 package com.webtoapp.core.i18n
 
 import android.content.Context

@@ -1659,6 +1659,7 @@ private fun aboutAuthorByLine(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "by Shiaho"
     AppLanguage.JAPANESE -> "by Shiaho"
     AppLanguage.KOREAN -> "by Shiaho"
+    AppLanguage.TURKISH -> "by Shiaho"
 }
 
 @Composable
@@ -1673,6 +1674,7 @@ private fun contactSectionTitle(): String = when (Strings.currentLanguage.value)
     AppLanguage.RUSSIAN -> "Get in touch"
     AppLanguage.JAPANESE -> "Get in touch"
     AppLanguage.KOREAN -> "Get in touch"
+    AppLanguage.TURKISH -> "Get in touch"
 }
 
 @Composable
@@ -1687,6 +1689,7 @@ private fun docsLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "Документация"
     AppLanguage.JAPANESE -> "ドキュメント"
     AppLanguage.KOREAN -> "문서"
+    AppLanguage.TURKISH -> "Docs"
 }
 
 @Composable
@@ -1701,6 +1704,7 @@ private fun authorLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "More projects"
     AppLanguage.JAPANESE -> "More projects"
     AppLanguage.KOREAN -> "More projects"
+    AppLanguage.TURKISH -> "More projects"
 }
 
 @Composable
@@ -1715,6 +1719,7 @@ private fun groupWord(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "Group"
     AppLanguage.JAPANESE -> "Group"
     AppLanguage.KOREAN -> "Group"
+    AppLanguage.TURKISH -> "Group"
 }
 
 @Composable
@@ -1729,6 +1734,7 @@ private fun qqCopiedToast(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "QQ group number copied"
     AppLanguage.JAPANESE -> "QQ group number copied"
     AppLanguage.KOREAN -> "QQ group number copied"
+    AppLanguage.TURKISH -> "QQ group number copied"
 }
 
 @Composable
@@ -1743,6 +1749,7 @@ private fun versionCopiedToast(): String = when (Strings.currentLanguage.value) 
     AppLanguage.RUSSIAN -> "Version copied"
     AppLanguage.JAPANESE -> "Version copied"
     AppLanguage.KOREAN -> "Version copied"
+    AppLanguage.TURKISH -> "Version copied"
 }
 
 
@@ -2220,6 +2227,7 @@ private fun otherProjectsTitle(): String = when (Strings.currentLanguage.value) 
     AppLanguage.RUSSIAN -> "Другие проекты"
     AppLanguage.JAPANESE -> "その他のプロジェクト"
     AppLanguage.KOREAN -> "다른 프로젝트"
+    AppLanguage.TURKISH -> "More projects"
 }
 
 @Composable
@@ -2234,6 +2242,7 @@ private fun sortByStarsLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "По звёздам"
     AppLanguage.JAPANESE -> "スター順"
     AppLanguage.KOREAN -> "별점순"
+    AppLanguage.TURKISH -> "Stars"
 }
 
 @Composable
@@ -2248,6 +2257,7 @@ private fun sortByUpdatedLabel(): String = when (Strings.currentLanguage.value) 
     AppLanguage.RUSSIAN -> "Сначала новые"
     AppLanguage.JAPANESE -> "更新順"
     AppLanguage.KOREAN -> "최신순"
+    AppLanguage.TURKISH -> "Latest"
 }
 
 @Composable
@@ -2262,6 +2272,7 @@ private fun otherProjectsLoading(): String = when (Strings.currentLanguage.value
     AppLanguage.RUSSIAN -> "Загрузка проектов…"
     AppLanguage.JAPANESE -> "プロジェクトを読み込み中…"
     AppLanguage.KOREAN -> "프로젝트 불러오는 중…"
+    AppLanguage.TURKISH -> "Loading projects…"
 }
 
 @Composable
@@ -2276,6 +2287,7 @@ private fun otherProjectsFailed(): String = when (Strings.currentLanguage.value)
     AppLanguage.RUSSIAN -> "Не удалось загрузить проекты"
     AppLanguage.JAPANESE -> "プロジェクトの読み込みに失敗しました"
     AppLanguage.KOREAN -> "프로젝트를 불러오지 못했습니다"
+    AppLanguage.TURKISH -> "Failed to load projects"
 }
 
 @Composable
@@ -2290,6 +2302,7 @@ private fun otherProjectsEmpty(): String = when (Strings.currentLanguage.value) 
     AppLanguage.RUSSIAN -> "Других публичных проектов нет"
     AppLanguage.JAPANESE -> "他の公開プロジェクトはありません"
     AppLanguage.KOREAN -> "다른 공개 프로젝트가 없습니다"
+    AppLanguage.TURKISH -> "No other public projects"
 }
 
 @Composable
@@ -2304,6 +2317,7 @@ private fun repoNoDescription(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "Без описания"
     AppLanguage.JAPANESE -> "説明なし"
     AppLanguage.KOREAN -> "설명 없음"
+    AppLanguage.TURKISH -> "No description"
 }
 
 @Composable
@@ -2318,6 +2332,7 @@ private fun viewAllOnGitHub(): String = when (Strings.currentLanguage.value) {
     AppLanguage.RUSSIAN -> "Смотреть все на GitHub"
     AppLanguage.JAPANESE -> "GitHub ですべて見る"
     AppLanguage.KOREAN -> "GitHub에서 모두 보기"
+    AppLanguage.TURKISH -> "View all on GitHub"
 }
 
 @Composable
@@ -2332,6 +2347,7 @@ private fun showMoreProjectsLabel(count: Int): String = when (Strings.currentLan
     AppLanguage.RUSSIAN -> "Показать ещё $count"
     AppLanguage.JAPANESE -> "あと $count 件を表示"
     AppLanguage.KOREAN -> "${count}개 더 보기"
+    AppLanguage.TURKISH -> "Show $count more"
 }
 
 @Composable
@@ -2346,4 +2362,5 @@ private fun showLessProjectsLabel(): String = when (Strings.currentLanguage.valu
     AppLanguage.RUSSIAN -> "Свернуть"
     AppLanguage.JAPANESE -> "折りたたむ"
     AppLanguage.KOREAN -> "접기"
+    AppLanguage.TURKISH -> "Show less"
 }
